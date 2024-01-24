@@ -1,0 +1,75 @@
+/* EnergyTradePage.css */
+.energy{
+  background-color: #a2d88c;
+}
+.sell-form {
+  margin-bottom: 20px;
+}
+
+.sell-form input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: orange; /* Change the input field background color to orange */
+}
+
+.sell-form button {
+  padding: 8px 16px;
+  background-color: lightgreen; /* Change the button color to light green */
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Set a higher value for border-radius to create a round rectangle shape */
+  cursor: pointer;
+  animation: pulse 1s infinite; /* Add animation to the button */
+}
+
+.sell-form button:hover {
+  background-color: #a2d88c; /* Change the hover color of the button */
+}
+
+
+
+
+
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h2 {
+  color: hsla(0, 80%, 2%, 0.911); /* Set the color to white */
+  margin-bottom: 20px;
+  font-weight: bold; /* Add bold text */
+}
+h1 {
+  color: hsla(0, 80%, 2%, 0.911); /* Set the color to white */
+  margin-bottom: 20px;
+  font-weight: bold; /* Add bold text */
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table th {
+  text-align: left;
+}
